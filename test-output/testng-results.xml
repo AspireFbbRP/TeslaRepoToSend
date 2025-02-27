@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[1. Enter TSLA in search box --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\27022025091438.png>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[2. Selected Tesla in the list and Navigated to Tesla Stock page! --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\27022025091445.png>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[3. Got Tesla Stock value! : 291.96 --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\27022025091446.png>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[Expected Result : Stock Price should be greater than 200!]]>
+    </line>
+    <line>
+      <![CDATA[Actual Result : Stock Price is greater than 200.00 : 291.96 --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\27022025091447.png>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[Previous Close <<<--->>> 290.80]]>
+    </line>
+    <line>
+      <![CDATA[EPS (TTM) <<<--->>> 2.04]]>
+    </line>
+    <line>
+      <![CDATA[Ex-Dividend Date <<<--->>> --]]>
+    </line>
+    <line>
+      <![CDATA[52 Week Range <<<--->>> 138.80 - 488.54]]>
+    </line>
+    <line>
+      <![CDATA[Open <<<--->>> 291.00]]>
+    </line>
+    <line>
+      <![CDATA[Market Cap (intraday) <<<--->>> 939.562B]]>
+    </line>
+    <line>
+      <![CDATA[1y Target Est <<<--->>> 345.56]]>
+    </line>
+    <line>
+      <![CDATA[Volume <<<--->>> 38,273,879]]>
+    </line>
+    <line>
+      <![CDATA[PE Ratio (TTM) <<<--->>> 143.19]]>
+    </line>
+    <line>
+      <![CDATA[Beta (5Y Monthly) <<<--->>> 2.34]]>
+    </line>
+    <line>
+      <![CDATA[Day's Range <<<--->>> 280.88 - 297.23]]>
+    </line>
+    <line>
+      <![CDATA[Ask <<<--->>> 292.94 x 100]]>
+    </line>
+    <line>
+      <![CDATA[Bid <<<--->>> 292.00 x 100]]>
+    </line>
+    <line>
+      <![CDATA[Earnings Date <<<--->>> Apr 23, 2025 - May 3, 2025]]>
+    </line>
+    <line>
+      <![CDATA[Forward Dividend & Yield <<<--->>> --]]>
+    </line>
+    <line>
+      <![CDATA[Avg. Volume <<<--->>> 81,610,142]]>
+    </line>
+    <line>
+      <![CDATA[4. Tesla Stock Info for Previous Close : 290.80 --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\27022025091449.png>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[5. Tesla Stock Info for Volume : 38,273,879 --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\27022025091449.png>Screenshot</a>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-02-27T21:14:09 IST" name="Default suite" finished-at="2025-02-27T21:14:50 IST" duration-ms="41547">
+    <groups>
+    </groups>
+    <test started-at="2025-02-27T21:14:09 IST" name="Default test" finished-at="2025-02-27T21:14:50 IST" duration-ms="41547">
+      <class name="org.yahoofinance.teslastock.TeslaStockTest">
+        <test-method is-config="true" signature="initialSetup()[pri:0, instance:org.yahoofinance.teslastock.TeslaStockTest@4f2b503c]" started-at="2025-02-27T21:14:09 IST" name="initialSetup" finished-at="2025-02-27T21:14:09 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetup -->
+        <test-method signature="TeslaStock()[pri:0, instance:org.yahoofinance.teslastock.TeslaStockTest@4f2b503c]" started-at="2025-02-27T21:14:09 IST" name="TeslaStock" finished-at="2025-02-27T21:14:50 IST" duration-ms="41488" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[1. Enter TSLA in search box --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\27022025091438.png>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[2. Selected Tesla in the list and Navigated to Tesla Stock page! --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\27022025091445.png>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[3. Got Tesla Stock value! : 291.96 --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\27022025091446.png>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[Expected Result : Stock Price should be greater than 200!]]>
+            </line>
+            <line>
+              <![CDATA[Actual Result : Stock Price is greater than 200.00 : 291.96 --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\27022025091447.png>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[Previous Close <<<--->>> 290.80]]>
+            </line>
+            <line>
+              <![CDATA[EPS (TTM) <<<--->>> 2.04]]>
+            </line>
+            <line>
+              <![CDATA[Ex-Dividend Date <<<--->>> --]]>
+            </line>
+            <line>
+              <![CDATA[52 Week Range <<<--->>> 138.80 - 488.54]]>
+            </line>
+            <line>
+              <![CDATA[Open <<<--->>> 291.00]]>
+            </line>
+            <line>
+              <![CDATA[Market Cap (intraday) <<<--->>> 939.562B]]>
+            </line>
+            <line>
+              <![CDATA[1y Target Est <<<--->>> 345.56]]>
+            </line>
+            <line>
+              <![CDATA[Volume <<<--->>> 38,273,879]]>
+            </line>
+            <line>
+              <![CDATA[PE Ratio (TTM) <<<--->>> 143.19]]>
+            </line>
+            <line>
+              <![CDATA[Beta (5Y Monthly) <<<--->>> 2.34]]>
+            </line>
+            <line>
+              <![CDATA[Day's Range <<<--->>> 280.88 - 297.23]]>
+            </line>
+            <line>
+              <![CDATA[Ask <<<--->>> 292.94 x 100]]>
+            </line>
+            <line>
+              <![CDATA[Bid <<<--->>> 292.00 x 100]]>
+            </line>
+            <line>
+              <![CDATA[Earnings Date <<<--->>> Apr 23, 2025 - May 3, 2025]]>
+            </line>
+            <line>
+              <![CDATA[Forward Dividend & Yield <<<--->>> --]]>
+            </line>
+            <line>
+              <![CDATA[Avg. Volume <<<--->>> 81,610,142]]>
+            </line>
+            <line>
+              <![CDATA[4. Tesla Stock Info for Previous Close : 290.80 --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\27022025091449.png>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[5. Tesla Stock Info for Volume : 38,273,879 --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\27022025091449.png>Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TeslaStock -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:org.yahoofinance.teslastock.TeslaStockTest@4f2b503c]" started-at="2025-02-27T21:14:50 IST" name="endTest" finished-at="2025-02-27T21:14:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- org.yahoofinance.teslastock.TeslaStockTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
