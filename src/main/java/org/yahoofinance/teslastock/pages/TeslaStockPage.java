@@ -45,7 +45,7 @@ public class TeslaStockPage extends LoadableComponent<TeslaStockPage> {
 	}
 
 	@Override
-	protected void isLoaded() throws Error {
+	protected void isLoaded() {
 		if(!Utils.waitForElement(driver, TeslaPageLoaded)) {
 			try {
 				Log.fail("Tesla Page Not Loaded!!");

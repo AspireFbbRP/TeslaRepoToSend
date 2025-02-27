@@ -34,9 +34,9 @@ public class TeslaStockTest extends BaseTest{
 					  "Stock Price should be greater than 200!",
 					  "Stock Price is greater than 200.00 : " + teslaStockPrice, driver);
 			  
-			  HashMap<String, String> teslaStockInfo = teslaPage.getAllTeslaStockInfo();
+			  //HashMap<String, String> teslaStockInfo = teslaPage.getAllTeslaStockInfo();
 			  
-			  teslaPage.printInfo(teslaStockInfo);
+			  //teslaPage.printInfo(teslaStockInfo);
 			  
 			  String prevClose = teslaPage.getDesiredTeslaStockInfo("Previous Close");
 			  String volume = teslaPage.getDesiredTeslaStockInfo("Volume");
