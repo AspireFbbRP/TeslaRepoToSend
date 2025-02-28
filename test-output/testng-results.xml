@@ -2,66 +2,66 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[1. Enter TSLA in search box --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\27022025113410.png>Screenshot</a>]]>
+      <![CDATA[1. Enter TSLA in search box --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\28022025085442.png>Screenshot</a>]]>
     </line>
     <line>
-      <![CDATA[2. Selected Tesla in the list and Navigated to Tesla Stock page! --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\27022025113413.png>Screenshot</a>]]>
+      <![CDATA[2. Selected Tesla in the list and Navigated to Tesla Stock page! --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\28022025085447.png>Screenshot</a>]]>
     </line>
     <line>
-      <![CDATA[3. Got Tesla Stock value! : 289.65 --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\27022025113416.png>Screenshot</a>]]>
+      <![CDATA[3. Got Tesla Stock value! : 281.95 --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\28022025085447.png>Screenshot</a>]]>
     </line>
     <line>
       <![CDATA[Expected Result : Stock Price should be greater than 200!]]>
     </line>
     <line>
-      <![CDATA[Actual Result : Stock Price is greater than 200.00 : 289.65 --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\27022025113416.png>Screenshot</a>]]>
+      <![CDATA[Actual Result : Stock Price is greater than 200.00 : 281.95 --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\28022025085448.png>Screenshot</a>]]>
     </line>
     <line>
-      <![CDATA[4. Tesla Stock Info for Previous Close : 290.80 --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\27022025113417.png>Screenshot</a>]]>
+      <![CDATA[4. Tesla Stock Info for Previous Close : 290.80 --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\28022025085450.png>Screenshot</a>]]>
     </line>
     <line>
-      <![CDATA[5. Tesla Stock Info for Volume : 63,301,920 --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\27022025113417.png>Screenshot</a>]]>
+      <![CDATA[5. Tesla Stock Info for Volume : 100,955,606 --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\28022025085450.png>Screenshot</a>]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-02-27T23:33:32 IST" name="Default suite" finished-at="2025-02-27T23:34:18 IST" duration-ms="45402">
+  <suite started-at="2025-02-28T08:54:21 IST" name="Default suite" finished-at="2025-02-28T08:54:51 IST" duration-ms="29793">
     <groups>
     </groups>
-    <test started-at="2025-02-27T23:33:32 IST" name="Default test" finished-at="2025-02-27T23:34:18 IST" duration-ms="45402">
+    <test started-at="2025-02-28T08:54:21 IST" name="Default test" finished-at="2025-02-28T08:54:51 IST" duration-ms="29793">
       <class name="org.yahoofinance.teslastock.TeslaStockTest">
-        <test-method is-config="true" signature="initialSuiteSetup()[pri:0, instance:org.yahoofinance.teslastock.TeslaStockTest@54bff557]" started-at="2025-02-27T23:33:32 IST" name="initialSuiteSetup" finished-at="2025-02-27T23:33:32 IST" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="initialSuiteSetup()[pri:0, instance:org.yahoofinance.teslastock.TeslaStockTest@54bff557]" started-at="2025-02-28T08:54:21 IST" name="initialSuiteSetup" finished-at="2025-02-28T08:54:21 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialSuiteSetup -->
-        <test-method is-config="true" signature="initialTestSetup()[pri:0, instance:org.yahoofinance.teslastock.TeslaStockTest@54bff557]" started-at="2025-02-27T23:33:32 IST" name="initialTestSetup" finished-at="2025-02-27T23:33:32 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="initialTestSetup()[pri:0, instance:org.yahoofinance.teslastock.TeslaStockTest@54bff557]" started-at="2025-02-28T08:54:21 IST" name="initialTestSetup" finished-at="2025-02-28T08:54:21 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialTestSetup -->
-        <test-method signature="TeslaStock()[pri:0, instance:org.yahoofinance.teslastock.TeslaStockTest@54bff557]" started-at="2025-02-27T23:33:32 IST" name="TeslaStock" finished-at="2025-02-27T23:34:18 IST" duration-ms="45367" status="PASS">
+        <test-method signature="TeslaStock()[pri:0, instance:org.yahoofinance.teslastock.TeslaStockTest@54bff557]" started-at="2025-02-28T08:54:21 IST" name="TeslaStock" finished-at="2025-02-28T08:54:51 IST" duration-ms="29760" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[1. Enter TSLA in search box --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\27022025113410.png>Screenshot</a>]]>
+              <![CDATA[1. Enter TSLA in search box --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\28022025085442.png>Screenshot</a>]]>
             </line>
             <line>
-              <![CDATA[2. Selected Tesla in the list and Navigated to Tesla Stock page! --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\27022025113413.png>Screenshot</a>]]>
+              <![CDATA[2. Selected Tesla in the list and Navigated to Tesla Stock page! --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\28022025085447.png>Screenshot</a>]]>
             </line>
             <line>
-              <![CDATA[3. Got Tesla Stock value! : 289.65 --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\27022025113416.png>Screenshot</a>]]>
+              <![CDATA[3. Got Tesla Stock value! : 281.95 --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\28022025085447.png>Screenshot</a>]]>
             </line>
             <line>
               <![CDATA[Expected Result : Stock Price should be greater than 200!]]>
             </line>
             <line>
-              <![CDATA[Actual Result : Stock Price is greater than 200.00 : 289.65 --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\27022025113416.png>Screenshot</a>]]>
+              <![CDATA[Actual Result : Stock Price is greater than 200.00 : 281.95 --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\28022025085448.png>Screenshot</a>]]>
             </line>
             <line>
-              <![CDATA[4. Tesla Stock Info for Previous Close : 290.80 --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\27022025113417.png>Screenshot</a>]]>
+              <![CDATA[4. Tesla Stock Info for Previous Close : 290.80 --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\28022025085450.png>Screenshot</a>]]>
             </line>
             <line>
-              <![CDATA[5. Tesla Stock Info for Volume : 63,301,920 --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\27022025113417.png>Screenshot</a>]]>
+              <![CDATA[5. Tesla Stock Info for Volume : 100,955,606 --> <a target="_blank" href=C:\Users\Lenovo\eclipse-workspace\teslastock\test-output\screenshot\28022025085450.png>Screenshot</a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- TeslaStock -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:org.yahoofinance.teslastock.TeslaStockTest@54bff557]" started-at="2025-02-27T23:34:18 IST" name="endTest" finished-at="2025-02-27T23:34:18 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="endTest()[pri:0, instance:org.yahoofinance.teslastock.TeslaStockTest@54bff557]" started-at="2025-02-28T08:54:51 IST" name="endTest" finished-at="2025-02-28T08:54:51 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->

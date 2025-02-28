@@ -6,6 +6,7 @@ import java.time.Duration;
 import java.util.Date;
 import java.util.NoSuchElementException;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.TakesScreenshot;
@@ -70,6 +71,11 @@ public class Utils {
 		File newFile = new File(screenShotPath);
 		Files.copy(f, newFile);
 		return screenShotPath;
+	}
+	
+	public static void scrollToElement(WebElement elem, WebDriver driver) throws Exception {
+		JavascriptExecutor jse = (JavascriptExecutor) driver;
+		jse.executeScript("arguments[0].scrollIntoView()", elem);
 	}
 	
 }

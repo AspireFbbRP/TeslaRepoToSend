@@ -70,6 +70,12 @@ public class HomePage extends LoadableComponent<HomePage> {
 		Utils.waitForElement(driver, SearchSection);
 	}
 	
+	/**
+	 * 
+	 * @param index
+	 * @return
+	 * @throws Exception
+	 */
 	public TeslaStockPage selectSearchListItemByIndex(int index) throws Exception {
 		Utils.waitForElement(driver, SearchSection);
 		listSelectableItems.get(index).click();

@@ -56,6 +56,7 @@ public class TeslaStockPage extends LoadableComponent<TeslaStockPage> {
 	}
 	
 	public Float getTeslaStockValue() throws Exception {
+		Utils.scrollToElement(TeslaPagePrice, driver);
 		String stockValue = TeslaPagePrice.getText();
 		return Float.parseFloat(stockValue);
 	}
@@ -83,6 +84,7 @@ public class TeslaStockPage extends LoadableComponent<TeslaStockPage> {
 	
 	public String getDesiredTeslaStockInfo(String info) throws Exception {
 		WebElement elem = teslaInfo.findElement(By.xpath("//span[text()='"+info+"']/ancestor::li/span[contains(@class,'value')]"));
+		Utils.scrollToElement(elem, driver);
 		String Value = elem.getText();
 		return Value;
 	}
