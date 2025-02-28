@@ -62,6 +62,11 @@ public class HomePage extends LoadableComponent<HomePage> {
 		}
 	}
 	
+	/**
+	 * To Enter value in the stock search text box
+	 * @param value - value to be entered
+	 * @throws Exception - Exception
+	 */
 	public void enterValueInSearch(String value) throws Exception {
 		searchBox.click();
 		Utils.waitForElement(driver, TrendingNowSection);
@@ -71,10 +76,10 @@ public class HomePage extends LoadableComponent<HomePage> {
 	}
 	
 	/**
-	 * 
-	 * @param index
-	 * @return
-	 * @throws Exception
+	 * To click on desired element based on index from the list of suggestion based on our input
+	 * @param index - Index value needed to be selected
+	 * @return TeslaStockPage - TeslaStock Page 
+	 * @throws Exception - Exception
 	 */
 	public TeslaStockPage selectSearchListItemByIndex(int index) throws Exception {
 		Utils.waitForElement(driver, SearchSection);

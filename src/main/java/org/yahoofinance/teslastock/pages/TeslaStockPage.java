@@ -54,13 +54,22 @@ public class TeslaStockPage extends LoadableComponent<TeslaStockPage> {
 			}
 		}
 	}
-	
+	 /**
+	  * To get Tesla stock value
+	  * @return value - stock value in float
+	  * @throws Exception - Exception
+	  */
 	public Float getTeslaStockValue() throws Exception {
 		Utils.scrollToElement(TeslaPagePrice, driver);
 		String stockValue = TeslaPagePrice.getText();
 		return Float.parseFloat(stockValue);
 	}
 	
+	/**
+	 * To get all the tesla stock information and store in to hashmap
+	 * @return HashMap<String, String> - Stock Information
+	 * @throws Exception - Exception
+	 */
 	public HashMap<String, String> getAllTeslaStockInfo() throws Exception {
 		HashMap<String, String> teslaInfo = new HashMap<String, String>();
 		int teslaStat = TeslaStatisticsValue.size();
@@ -74,6 +83,11 @@ public class TeslaStockPage extends LoadableComponent<TeslaStockPage> {
 		return teslaInfo;
 	}
 	
+	/**
+	 * To Print all the stock information of Tesla stock
+	 * @param teslaInfo - HashMap<String, String> information of tesla stock 
+	 * @throws Exception - Exception
+	 */
 	public void printInfo(HashMap<String, String> teslaInfo) throws Exception {
 		for (String name: teslaInfo.keySet()) {
 		    String key = name.toString();
@@ -82,6 +96,12 @@ public class TeslaStockPage extends LoadableComponent<TeslaStockPage> {
 		}
 	}
 	
+	/**
+	 * To get desired Stock Info from Tesla Stock Page
+	 * @param info - Needed Stock Info Label
+	 * @return String - Stock Value 
+	 * @throws Exception - Exception
+	 */
 	public String getDesiredTeslaStockInfo(String info) throws Exception {
 		WebElement elem = teslaInfo.findElement(By.xpath("//span[text()='"+info+"']/ancestor::li/span[contains(@class,'value')]"));
 		Utils.scrollToElement(elem, driver);
