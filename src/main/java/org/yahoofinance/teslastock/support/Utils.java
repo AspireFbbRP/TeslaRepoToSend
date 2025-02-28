@@ -21,6 +21,12 @@ import com.google.common.io.Files;
 
 public class Utils {
 	
+	/**
+	 * To wait for a particular element to display
+	 * @param driver - driver
+	 * @param elem - element to check
+	 * @return boolean - whether the element is loaded are not
+	 */
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static boolean waitForElement(WebDriver driver, WebElement elem) {
 		int minWait = ReadingProperties.getMinElementWait();
@@ -40,6 +46,11 @@ public class Utils {
 		return false;
 	}
 	
+	/**
+	 * To wait for page load
+	 * @param driver - driver
+	 * @return boolean - To check the page is properly loaded
+	 */
 	public static boolean waitForPageLoad(WebDriver driver) {
 		int pageWait = ReadingProperties.getMaxPageLoadWait();
 		FluentWait<WebDriver> wait = new WebDriverWait(driver, Duration.ofSeconds(pageWait)).pollingEvery(Duration.ofMillis(500))
@@ -60,6 +71,12 @@ public class Utils {
 		}
 	}
 	
+	/**
+	 * To take screenshot and store in screenshot folder
+	 * @param driver - driver
+	 * @return screenShotPath - screenshot path where it is stored
+	 * @throws Exception - Exception
+	 */
 	public static String takeScreenShot(WebDriver driver) throws Exception {
 		File f;
 		Date currentDate = new Date();
@@ -73,6 +90,12 @@ public class Utils {
 		return screenShotPath;
 	}
 	
+	/**
+	 * To scroll into view a particular element in the webpage
+	 * @param elem - Element to be scrolled for
+	 * @param driver - driver
+	 * @throws Exception - Exception
+	 */
 	public static void scrollToElement(WebElement elem, WebDriver driver) throws Exception {
 		JavascriptExecutor jse = (JavascriptExecutor) driver;
 		jse.executeScript("arguments[0].scrollIntoView()", elem);
